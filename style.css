@@ -1,7 +1,25 @@
 body{
     color: white;
 
-    background-color: brown;
+    background-color: rgb(61, 9, 9);
+
+}
+
+
+.menu-navegacao ul {
+
+
+    display: flex;
+
+    justify-content: space-around;
+
+} 
+
+
+.menu-navegacao ul li {
+
+padding: 20px;
 
 
 }
+
