@@ -1,4 +1,4 @@
-body{
+.index{
     color: white;
 
     background-color: rgb(61, 9, 9);
@@ -22,4 +22,30 @@ padding: 20px;
 
 
 }
+
+.sobre-nos{
+    color: white;
+
+    background-color: rgb(199, 10, 236);
+
+}
+
+
+.menu-navegacao ul {
+
+
+    display: flex;
+
+    justify-content: space-around;
+
+} 
+
+
+.menu-navegacao ul li {
+
+padding: 20px;
+
+
+}
+
 
