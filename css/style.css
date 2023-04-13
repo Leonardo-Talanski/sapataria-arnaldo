@@ -34,10 +34,63 @@ padding: 20px;
 
           color:rgb(127, 224, 224);
 
-          background-color: rgb(82, 1, 1);
+          background-color: rgb(206, 89, 89);
         
         
         }
+
+
+        .div-menu{
+
+            display:flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+    }
+
+
+    .btn-menu{
+
+        margin: 10px;
+        transition: border-color 0.25s;
+        margin-top: 4px;
+        color:black;
+        border-bottom: 3px solid transparent;
+        font-size: 20px;
+
+
+
+    }
+
+
+
+
+
+    a:hover{
+
+        background-color: white;
+        border-color: black;
+        cursor:pointer;
+
+
+    }
+
+
+
+    .titulo-produtos{
+
+        text-align: center;
+
+    }
+
+
+    .banner.catalogo{
+
+        object-fit: fill;
+
+
+    }
 
 
 
