@@ -1,11 +1,11 @@
-.index{
+.home{
     color: white;
 
     background-color: rgb(85, 57, 57)
 }
 
 
-.menu-navegacao ul {
+.navigation-menu ul {
 
 
     display: flex;
@@ -15,14 +15,14 @@
 } 
 
 
-.menu-navegacao ul li {
+.navigation-menu ul li {
 
 padding: 20px;
 
 
 }
 
-.sobre-nos{
+.about-us{
     color: white;
 
     background-color: rgb(82, 1, 1);
@@ -30,11 +30,11 @@ padding: 20px;
 }
 
 
-.catalogo{
+.catalog{
 
-          color:rgb(127, 224, 224);
+          color:rgb(19, 16, 3);
 
-          background-color: rgb(206, 89, 89);
+          background-color: #663d3d;
         
         
         }
@@ -55,7 +55,7 @@ padding: 20px;
         margin: 10px;
         transition: border-color 0.25s;
         margin-top: 4px;
-        color:black;
+        color:rgb(7, 7, 7);
         border-bottom: 3px solid transparent;
         font-size: 20px;
 
@@ -69,8 +69,8 @@ padding: 20px;
 
     a:hover{
 
-        background-color: white;
-        border-color: black;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(78, 15, 15);
         cursor:pointer;
 
 
@@ -78,17 +78,35 @@ padding: 20px;
 
 
 
-    .titulo-produtos{
+    .product-title{
 
         text-align: center;
+
+        font-family: arial black ;
+        font-size: 50px;
+    }
+
+
+    .product-title1{
+
+        text-align: start;
+
+        font-family: arial;
+        font-size:30px;
+
+
 
     }
 
 
-    .banner.catalogo{
+
+    .catalog-banner{
 
         object-fit: fill;
+        object-position: 25%;
 
+        
+        
 
     }
 
