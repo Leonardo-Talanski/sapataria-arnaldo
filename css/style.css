@@ -102,13 +102,21 @@ padding: 20px;
 
     .catalog-banner{
 
-        object-fit: fill;
-        object-position: 25%;
+        width: 105%; 
+        height: 200px;
+        object-fit: cover;
+        object-position: 30%;
 
         
-        
+        }
 
-    }
+        .catalog-footer{
+
+            color:blueviolet;
+            background-color: aquamarine;
+
+
+        }
 
 
 
