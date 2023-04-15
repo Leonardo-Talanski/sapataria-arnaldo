@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo+Mono&display=swap');
+
 .home{
     color: white;
 
     background-color: rgb(85, 57, 57)
 }
 
-
 .navigation-menu ul {
-
 
     display: flex;
 
@@ -14,55 +14,58 @@
 
 } 
 
-
 .navigation-menu ul li {
 
 padding: 20px;
-
 
 }
 
 .about-us{
     color: white;
 
-    background-color: rgb(82, 1, 1);
+    background-color: #ac2d19;
 
 }
-
 
 .catalog{
 
           color:rgb(19, 16, 3);
 
-          background-color: #663d3d;
+          background-color: #dfbfba;
         
         
         }
 
-
         .div-menu{
-
+            background-color: #84533E;
             display:flex;
             align-items: center;
             justify-content: space-evenly;
 
-
     }
 
+    .div-produtos{
+        mix-blend-mode: multiply;
+        opacity:5;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+}
 
     .btn-menu{
-
-        margin: 10px;
+background-color: #bf8a82;
+        margin: 10px; 
         transition: border-color 0.25s;
-        margin-top: 4px;
+        margin: 12px;
         color:rgb(7, 7, 7);
-        border-bottom: 3px solid transparent;
+        border-radius: 30px;
+        border: 3px solid #bf8a82;
+        border-bottom: 3px solid transparent; 
         font-size: 20px;
 
 
-
     }
-
 
 
 
@@ -73,9 +76,7 @@ padding: 20px;
         border-color: rgb(78, 15, 15);
         cursor:pointer;
 
-
-    }
-
+    } 
 
 
     .product-title{
@@ -86,7 +87,6 @@ padding: 20px;
         font-size: 50px;
     }
 
-
     .product-title1{
 
         text-align: start;
@@ -95,14 +95,12 @@ padding: 20px;
         font-size:30px;
 
 
-
     }
 
 
-
     .catalog-banner{
-
-        width: 105%; 
+mix-blend-mode: multiply;
+        width: 100%; 
         height: 200px;
         object-fit: cover;
         object-position: 30%;
@@ -111,12 +109,29 @@ padding: 20px;
         }
 
         .catalog-footer{
-
-            color:blueviolet;
-            background-color: aquamarine;
-
+            text-align: start;
+            font-family: 'Chivo Mono', monospace;
+            font-size:16px;
+            color:rgb(254, 254, 254);
+            background-color: #84533E
 
         }
+
+        .container-titulos{
+            background-color: #84533E
+            
+        }
+
+        .adress-style{
+            margin: 25px;
+        }
+
+        .remove-branco{
+        mix-blend-mode: multiply;
+       } 
+
+
+
 
 
 
