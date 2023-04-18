@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
+
 
 .home{
     color: white;
 
     background-color: rgb(85, 57, 57)
+
+
 }
 
 .navigation-menu ul {
@@ -53,8 +56,10 @@ padding: 20px;
 
 }
 
+
     .btn-menu{
-background-color: #bf8a82;
+
+        background-color: #bf8a82;
         margin: 10px; 
         transition: border-color 0.25s;
         margin: 12px;
@@ -82,8 +87,6 @@ background-color: #bf8a82;
     .product-title{
 
         text-align: center;
-
-        font-family: arial black ;
         font-size: 50px;
     }
 
@@ -124,6 +127,7 @@ mix-blend-mode: multiply;
 
         .adress-style{
             margin: 25px;
+            
         }
 
         .remove-branco{
@@ -131,9 +135,37 @@ mix-blend-mode: multiply;
        } 
 
 
+       .container{
+
+        display: flex;
+        justify-content: space-between;
+
+       }
+
+    .container > aside > img { 
+
+        width: 800px;
+
+
+    }
+
+
+    .container h3 {
+
+        font-size: 30pt;
+        font-weight: 700;
+    
+}
+
+
+    .container p {
+
+        font-size: 14pt;
+        font-weight: 300;
 
 
 
+    }
 
 
 
