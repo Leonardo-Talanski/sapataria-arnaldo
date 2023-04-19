@@ -8,7 +8,7 @@
 .home {
     color: white;
 
-    background-color: rgb(85, 57, 57)
+    background-color: #543737;
 }
 
 .navigation-menu ul {
@@ -28,7 +28,7 @@
 .about-us {
     color: white;
 
-    background-color: #dfbfba;
+    background-color: #543737;
 
 }
 
@@ -73,7 +73,6 @@
 
 
 }
-
 
 
 
@@ -178,6 +177,7 @@ button {
 .contact-form button {
 
     width: 100%;
+    box-sizing: border-box; 
 
 }
 
