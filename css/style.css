@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;600;700&display=swap');
+
+
+
 
 
 
@@ -18,7 +17,7 @@
 
     display: flex;
 
-    justify-content: space-around;
+    justify-content: space-around; 
 
 } 
 
@@ -41,7 +40,7 @@ padding: 20px;
 
           background-color: #dfbfba;
         
-        
+          
         }
 
         .div-menu{
@@ -93,6 +92,8 @@ padding: 20px;
 
         text-align: center;
         font-size: 50px;
+        font-family:'Chivo Mono', monospace;
+        font-weight: 700;
     }
 
     .product-title1{
@@ -118,7 +119,7 @@ padding: 20px;
 
         .catalog-footer{
             text-align: start;
-            font-family: 'Chivo Mono', monospace;
+            font-family:'Chivo Mono', monospace;
             font-size:16px;
             color:rgb(254, 254, 254);
             background-color: #84533E
@@ -126,7 +127,8 @@ padding: 20px;
         }
 
         .container-titles{
-            background-color: #84533E
+            background-color: #84533E;
+            
             
         }
 
@@ -167,6 +169,16 @@ padding: 20px;
 
         font-size: 14pt;
         font-weight: 300;
+
+
+
+    }
+
+
+    .chivo-mono-italic{ 
+
+        font-family:'Chivo Mono', monospace;
+        font-weight: 1100;
 
 
 
