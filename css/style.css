@@ -5,211 +5,189 @@
 
 
 
-.home{
+.home {
     color: white;
 
     background-color: rgb(85, 57, 57)
-
-
 }
 
 .navigation-menu ul {
 
     display: flex;
 
-    justify-content: space-around; 
+    justify-content: space-around;
 
-} 
+}
 
 .navigation-menu ul li {
 
-padding: 20px;
+    padding: 20px;
 
 }
 
-.about-us{
+.about-us {
     color: white;
 
-    background-color: #ac2d19;
+    background-color: #dfbfba;
 
 }
 
-.catalog{
+.catalog {
 
-          color:rgb(19, 16, 3);
+    color: rgb(19, 16, 3);
 
-          background-color: #dfbfba;
-        
-          
-        }
+    background-color: #dfbfba;
 
-        .div-menu{
-            background-color: #84533E;
-            display:flex;
-            align-items: center;
-            justify-content: space-evenly;
 
-    }
+}
 
-    .div-produtos{
-        mix-blend-mode: multiply;
-        opacity:5;
-        display:flex;
-        align-items: center;
-        justify-content: space-evenly;
+.div-menu {
+    background-color: #84533E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.div-produtos {
+    mix-blend-mode: multiply;
+    opacity: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 
 
-    .btn-menu{
+.btn-menu {
 
-        background-color: #bf8a82;
-        margin: 10px; 
-        transition: border-color 0.25s;
-        margin: 12px;
-        color:rgb(7, 7, 7);
-        border-radius: 30px;
-        border: 3px solid #bf8a82;
-        border-bottom: 3px solid transparent; 
-        font-size: 20px;
-
-
-    }
+    background-color: #bf8a82;
+    margin: 10px;
+    transition: border-color 0.25s;
+    margin: 12px;
+    color: rgb(7, 7, 7);
+    border-radius: 30px;
+    border: 3px solid #bf8a82;
+    border-bottom: 3px solid transparent;
+    font-size: 20px;
 
 
-
-
-    a:hover{
-
-        background-color: rgb(255, 255, 255);
-        border-color: rgb(78, 15, 15);
-        cursor:pointer;
-
-    } 
-
-
-    .product-title{
-
-        text-align: center;
-        font-size: 50px;
-        font-family:'Chivo Mono', monospace;
-        font-weight: 100;
-    }
-
-    .product-title1{
-
-        text-align: start;
-        font-family: arial;
-        font-size:30px;
-
-
-    }
-
-
-    .catalog-banner{
-        
-        mix-blend-mode: multiply;
-        width: 100%; 
-        height: 200px;
-        object-fit: cover;
-        object-position: 30%;
-
-        
-        }
-
-        .catalog-footer{
-            text-align: start;
-            font-family:'Chivo Mono', monospace;
-            font-size:16px;
-            color:rgb(254, 254, 254);
-            background-color: #84533E
-
-        }
-
-        .container-titles{
-            background-color: #84533E;
-            
-            
-        }
-
-        .adress-style{
-            margin: 25px;
-            
-        }
-
-        .remove-branco{
-        mix-blend-mode: multiply;
-       } 
-
-
-       .container{
-
-        display: flex;
-        justify-content: space-between;
-
-       }
-
-    .container > aside > img { 
-
-        width: 800px;
-
-
-    }
-
-
-    .container h3 {
-
-        font-size: 30pt;
-        font-weight: 700;
-    
 }
 
 
-    .container p {
-
-        font-size: 14pt;
-        font-weight: 300;
 
 
+a:hover {
 
-    }
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(78, 15, 15);
+    cursor: pointer;
 
-    label, 
-    button {
-
-        display: block;
-
-    }
+}
 
 
-    .contact-form input,
-    .contact-form textarea,
-    .contact-form select,
-    .contact-form button {
+.product-title {
 
-        width: 100%; 
-
-    }
-
-    .contact-form{
-
-        width: 60%;
-        margin: auto;
-
-
-    }
-
-
-  
-
-    
-
-
-    
-
-
-    
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
+}
 
 
 
+.catalog-banner {
 
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 30%;
+
+
+}
+
+.catalog-footer {
+    text-align: start;
+    font-family: 'Chivo Mono', monospace;
+
+    font-size: 16px;
+    color: rgb(254, 254, 254);
+    background-color: #84533E
+}
+
+.container-titles {
+    background-color: #84533E;
+
+
+}
+
+.adress-style {
+    margin: 25px;
+
+}
+
+.remove-branco {
+    mix-blend-mode: multiply;
+}
+
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container>aside>img {
+
+    width: 800px;
+
+
+}
+
+
+.container h3 {
+
+    font-size: 30pt;
+    font-weight: 700;
+
+}
+
+
+.container p {
+
+    font-size: 14pt;
+    font-weight: 300;
+
+
+
+}
+
+label,
+button {
+
+    display: block;
+
+}
+
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+
+    width: 100%;
+
+}
+
+.contact-form {
+
+    width: 60%;
+    margin: auto;
+
+
+}
+
+
+        
