@@ -59,29 +59,33 @@
 }
 
 
+
 .btn-menu {
-
-    background-color: #bf8a82;
-    margin: 10px;
-    transition: border-color 0.25s;
-    margin: 12px;
-    color: rgb(7, 7, 7);
-    border-radius: 30px;
-    border: 3px solid #bf8a82;
-    border-bottom: 3px solid transparent;
+    display: flex;
+    align-items:center;
+    font-family: 'Chivo Mono', monospace;
+    transition: background-color 0.25s;
     font-size: 20px;
+}
+
+.btn-menu>a{
+    margin:3px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
 
 
+.btn-menu>i{
+    margin:3px;
+    color: rgb(255, 255, 255);
+   
 }
 
 
 
-a:hover {
-
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(78, 15, 15);
+.btn-menu:hover {
+    background-color: #bf8a82;
     cursor: pointer;
-
 }
 
 
