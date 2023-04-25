@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;600;700&display=swap');
 
 
-
-
-
-
 .home {
     color: white;
-
     background-color: #543737;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
+
+
 }
 
 .navigation-menu ul {
 
     display: flex;
-
     justify-content: space-around;
 
 }
@@ -27,16 +25,17 @@
 
 .about-us {
     color: white;
-
     background-color: #543737;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
 
 }
 
 .catalog {
 
     color: rgb(19, 16, 3);
-
     background-color: #dfbfba;
+
 
 
 }
@@ -76,6 +75,7 @@
 
 
 .btn-menu>i{
+    
     margin:3px;
     color: rgb(255, 255, 255);
    
@@ -84,6 +84,7 @@
 
 
 .btn-menu:hover {
+    
     background-color: #bf8a82;
     cursor: pointer;
 }
@@ -106,31 +107,35 @@
     height: 200px;
     object-fit: cover;
     object-position: 30%;
-
+    
+   
 
 }
 
 .catalog-footer {
+    
     text-align: start;
     font-family: 'Chivo Mono', monospace;
-
     font-size: 16px;
     color: rgb(254, 254, 254);
     background-color: #84533E
 }
 
 .container-titles {
+   
     background-color: #84533E;
 
 
 }
 
 .adress-style {
+    
     margin: 25px;
 
 }
 
 .remove-branco {
+    
     mix-blend-mode: multiply;
 }
 
@@ -190,9 +195,20 @@ button {
     width: 60%;
     margin: auto;
     
+}
+
+
+.contact{
+
+    color: white;
+    background-color: #543737;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
 
 
 }
+
+
 
 
         
