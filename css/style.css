@@ -7,18 +7,15 @@
     font-family: 'Chivo Mono', monospace;
     font-weight: 100;
 
-
 }
 
 .navigation-menu ul {
-
     display: flex;
     justify-content: space-around;
 
 }
 
 .navigation-menu ul li {
-
     padding: 20px;
 
 }
@@ -36,8 +33,6 @@
     color: rgb(19, 16, 3);
     background-color: #dfbfba;
 
-
-
 }
 
 .div-menu {
@@ -48,7 +43,7 @@
 
 }
 
-.div-produtos {
+.div-products {
     mix-blend-mode: multiply;
     opacity: 5;
     display: flex;
@@ -57,48 +52,41 @@
 
 }
 
-
-
 .btn-menu {
     display: flex;
     align-items:center;
     font-family: 'Chivo Mono', monospace;
     transition: background-color 0.25s;
     font-size: 20px;
+
 }
 
-.btn-menu>a{
+.btn-menu>a {
     margin:3px;
     color: rgb(255, 255, 255);
     margin-left: 5px;
+
 }
 
-
-.btn-menu>i{
-    
+.btn-menu>i {
     margin:3px;
     color: rgb(255, 255, 255);
    
 }
 
-
-
 .btn-menu:hover {
-    
     background-color: #bf8a82;
     cursor: pointer;
+
 }
 
-
 .product-title {
-
     text-align: center;
     font-size: 50px;
     font-family: 'Chivo Mono', monospace;
     font-weight: 100;
+
 }
-
-
 
 .catalog-banner {
 
@@ -108,103 +96,83 @@
     object-fit: cover;
     object-position: 30%;
     
-   
-
 }
 
 .catalog-footer {
-    
     text-align: start;
     font-family: 'Chivo Mono', monospace;
     font-size: 16px;
     color: rgb(254, 254, 254);
     background-color: #84533E
+
 }
 
 .container-titles {
    
     background-color: #84533E;
 
-
 }
 
 .adress-style {
-    
-    margin: 25px;
+     margin: 25px;
 
 }
 
-.remove-branco {
+/*.white-remove { 
     
     mix-blend-mode: multiply;
-}
-
+} */
 
 .container {
-
     display: flex;
     justify-content: space-between;
 
 }
 
 .container>aside>img {
-
-    width: 800px;
-
+     width: 800px;
 
 }
 
 
 .container h3 {
-
     font-size: 30pt;
     font-weight: 700;
 
 }
 
-
 .container p {
-
     font-size: 14pt;
     font-weight: 300;
-
-
 
 }
 
 label,
 button {
-
     display: block;
 
 }
-
 
 .contact-form input,
 .contact-form textarea,
 .contact-form select,
 .contact-form button {
-
     width: 100%;
     box-sizing: border-box; 
 
 }
 
 .contact-form {
-
     width: 60%;
     margin: auto;
     
 }
 
-
 .contact{
-
     color: white;
     background-color: #543737;
     font-family: 'Chivo Mono', monospace;
     font-weight: 100;
-
 
 }
 
