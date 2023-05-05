@@ -43,6 +43,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-style: 'Chivo Mono', monospace;
+    font-weight: bold;
 
 }
 
