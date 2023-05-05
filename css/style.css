@@ -32,7 +32,6 @@
 }
 
 .catalog {
-
     color: rgb(19, 16, 3);
     background-color: #dfbfba;
 
@@ -94,7 +93,6 @@
 }
 
 .catalog-banner {
-
     mix-blend-mode: multiply;
     width: 100%;
     height: 200px;
@@ -113,13 +111,12 @@
 }
 
 .container-titles {
-   
     background-color: #84533E;
 
 }
 
 .adress-style {
-     margin: 25px;
+    margin: 25px;
 
 }
 
@@ -139,7 +136,7 @@
 
 }
 
-
+/*
 .container h3 {
     font-size: 30pt;
     font-weight: 700;
@@ -151,6 +148,7 @@
     font-weight: 300;
 
 }
+*/
 
 label,
 button {
@@ -183,8 +181,8 @@ button {
 
 .h1-tiitle{
     font-family: 'Chivo Mono', monospace;
-    font-weight: 100;
-    font-size: lighter;
+    font-weight: 600;
+    font-size: bold;
 
 }
 
@@ -201,6 +199,7 @@ button {
     font-size: lighter;
  
 }
+
 
 
 
