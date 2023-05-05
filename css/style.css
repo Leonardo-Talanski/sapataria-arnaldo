@@ -181,6 +181,30 @@ button {
 
 }
 
+.h1-tiitle{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
+    font-size: lighter;
+
+}
+
+.h2-tittle{
+    font-family: 'Chivo Mono', monospace; 
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+.p-tittle{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
+    font-size: lighter;
+ 
+}
+
+
+
+
 
 
 
