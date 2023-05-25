@@ -37,13 +37,21 @@
 
 }
 
-.div-menu {
-    background-color: #84533E;
+.nav-menu {
+    /*background-color: #84533E;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-style: 'Chivo Mono', monospace;
-    font-weight: bold;
+    font-weight: bold;*/
+        height: 90px;
+        background-color: #84533E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Lato', monospace;
+        font-weight: bold;
+        padding: 0px 50px;
 
 }
 
